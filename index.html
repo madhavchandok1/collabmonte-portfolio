@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollabMente - Influencer Marketing & UGC Agency</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        
+    </style>
+</head>
+
+<body class="bg-[#FFFFFF] text-gray-800 font-sans">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full shadow-xl z-50 navbar">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="/" class="flex items-center">
+                <img src="images/A0DF4819-2443-4990-A6D8-7F1C7AE5DD38.png" alt="CollabMente Logo"
+                    class="h-12 w-auto mr-2" />
+            </a>
+            <div class="hidden md:flex space-x-12 navbar-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#creators" class="nav-link">Our Creators</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-[#333333] focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="flex flex-col space-y-4 px-6 py-4">
+                <a href="#home" class="mobile-nav-link">Home</a>
+                <a href="#services" class="mobile-nav-link">Services</a>
+                <a href="#creators" class="mobile-nav-link">Our Creators</a>
+                <a href="#blog" class="mobile-nav-link">Blog</a>
+                <a href="#contact" class="mobile-nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-dark z-0"></div>
+        <div class="absolute inset-0 opacity-20 z-0">
+            <div class="absolute inset-0 bg-pattern"></div>
+        </div>
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight animate-fadeIn text-gray-100" id="hero-h1">
+                Where <span class="gradient-text">Mindful Marketing</span> Meets <span class="gradient-text">Meaningful
+                    Influence</span>
+            </h1>
+            <p class="text-xl md:text-2xl mb-12 text-gray-100 max-w-3xl mx-auto animate-fadeIn delay-300">
+                We help brands grow with influencer campaigns and UGC that delivers real results.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4 animate-fadeIn delay-500">
+                <a href="#contact" class="btn-primary">Plan Your Campaign</a>
+                <a href="#creators" class="btn-secondary">Join as a Creator</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is CollabMente Section -->
+    <section id="what-is-collabmente" class="collabmonte-section">
+        <div class="collabmonte-container">
+            <h2 class="collabmonte-title">What is <span class="collabmonte-span">CollabMente?</span></h2>
+            <p class="collabmonte-lead">
+                <span class="collabmonte-bold">CollabMente</span> is a modern influencer marketing agency focused on
+                helping brands connect with the right creators to tell impactful stories. We believe in the power of
+                authentic storytelling, and our mission is to bridge the gap between innovative brands and content
+                creators who align with their values and voice.
+            </p>
+            <p class="collabmonte-lead">
+                At CollabMente, we don't just run campaigns—we craft narratives that resonate. Our approach combines
+                data-driven insights with a deep understanding of influencer dynamics across platforms like Instagram,
+                TikTok, YouTube, and emerging digital spaces. Whether you're launching a new product, building community
+                awareness, or scaling your brand's digital presence, we ensure the right message reaches the right
+                audience.
+            </p>
+            <p class="collabmonte-desc">
+                Whether you're a startup or a scaling brand, we help you stand out with influencer campaigns, UGC
+                content, and social strategies that actually convert.
+            </p>
+        </div>
+    </section>
+
+    <!-- Why Choose CollabMente Section -->
+    <section id="why-choose-collabmonte" class="whychoose-section">
+        <div class="whychoose-container">
+            <h2 class="whychoose-title">Why Choose <span class="collabmonte-span">CollabMente?</span></h2>
+            <div class="whychoose-cards">
+                <div class="whychoose-card animate-up">
+                    <i class="fas fa-female whychoose-icon"></i>
+                    <div class="whychoose-card-title">Women-led Team</div>
+                </div>
+                <div class="whychoose-card animate-up">
+                    <i class="fas fa-language whychoose-icon"></i>
+                    <div class="whychoose-card-title">28+ Languages Reach</div>
+                </div>
+                <div class="whychoose-card animate-up">
+                    <i class="fas fa-rocket whychoose-icon"></i>
+                    <div class="whychoose-card-title">Chosen by emerging startups & bold brands</div>
+                </div>
+                <div class="whychoose-card animate-up">
+                    <i class="fas fa-globe whychoose-icon"></i>
+                    <div class="whychoose-card-title">Pan-India Creator Network</div>
+                </div>
+                <div class="whychoose-card animate-up">
+                    <i class="fas fa-cogs whychoose-icon"></i>
+                    <div class="whychoose-card-title">100% Campaign Customization</div>
+                    <div class="whychoose-card-desc">Tailored strategies for your unique brand needs</div>
+                </div>
+                <div class="whychoose-card animate-up">
+                    <i class="fas fa-users whychoose-icon"></i>
+                    <div class="whychoose-card-title">UGC + Paid Collabs</div>
+                    <div class="whychoose-card-desc">Comprehensive content solutions</div>
+                </div>
+                <div class="whychoose-card animate-up">
+                    <i class="fas fa-chart-line whychoose-icon"></i>
+                    <div class="whychoose-card-title">Transparent Reporting</div>
+                    <div class="whychoose-card-desc">Clear metrics and insights</div>
+                </div>
+                <div class="whychoose-card animate-up">
+                    <i class="fas fa-headset whychoose-icon"></i>
+                    <div class="whychoose-card-title">Personalized Support</div>
+                    <div class="whychoose-card-desc">From pitch to performance</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="results-section">
+        <div class="collabmonte-container">
+            <h2 class="collabmonte-title">Results That <span class="collabmonte-span">Speak</span></h2> 
+            <div class="results-grid">
+                <div class="result-card animate-up">
+                    <div class="result-number">
+                        <span class="currency-symbol">₹</span><span class="countup-number" data-target="19.92">0</span>
+                    </div>
+                    <div class="result-title">CPM</div>
+                    <div class="result-subtitle">Cost Per Mille</div>
+                </div>
+                <div class="result-card animate-up">
+                    <div class="result-number">
+                        <span class="currency-symbol">₹</span><span class="countup-number" data-target="5.06">0</span>
+                    </div>
+                    <div class="result-title">CPC</div>
+                    <div class="result-subtitle">Cost Per Click</div>
+                </div>
+                <div class="result-card animate-up">
+                    <div class="result-number">
+                        <span class="currency-symbol">₹</span><span class="countup-number" data-target="14.38">0</span>
+                    </div>
+                    <div class="result-title">CPI</div>
+                    <div class="result-subtitle">Cost Per Install</div>
+                </div>
+            </div>
+            <p class="collabmonte-desc mt-8">
+                Real content. Real creators. Real performance.
+            </p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="collabmonte-container">
+            <h2 class="collabmonte-title">Built for <span class="collabmonte-span">Brands</span>. Powered by <span
+                    class="collabmonte-span">Creators</span>.</h2>
+
+            <p class="collabmonte-lead">
+                We're a new-age influencer marketing and UGC agency that connects brands with creators who convert —
+                not just influence. Whether you're launching a new product or scaling your reach, we help you do it
+                with content that works.
+            </p>
+            
+            <div class="brand-grid">
+                <div class="brand-card animate-up">
+                    <div class="brand-logo-container">
+                        <img src="images/brand-logo1.png" alt="Brand Logo 1" class="brand-logo">
+                    </div>
+                </div>
+                <div class="brand-card animate-up">
+                    <div class="brand-logo-container">
+                        <img src="images/brand-logo2.png" alt="Brand Logo 2" class="brand-logo">
+                    </div>
+                </div>
+                <div class="brand-card animate-up">
+                    <div class="brand-logo-container">
+                        <img src="images/brand-logo3.png" alt="Brand Logo 3" class="brand-logo">
+                    </div>
+                </div>
+                <div class="brand-card animate-up">
+                    <div class="brand-logo-container">
+                        <img src="images/brand-logo4.png" alt="Brand Logo 4" class="brand-logo">
+                    </div>
+                </div>
+            </div>
+                
+            <!-- Join as Creator Button -->
+            <div class="button-container">
+                <a href="#contact" class="btn-primary">Join as a Creator</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-[#FFFFFF]">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">What We <span class="gradient-text">Do</span></h2>
+            <div class="divider"></div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-12">
+                <div class="service-card animate-up">
+                    <div
+                        class="w-16 h-16 rounded-full bg-[#FFE8D6] bg-opacity-20 flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-sitemap text-[#FF971D] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Campaign Strategy</h3>
+                    <p class="text-gray-600">
+                        Custom strategies aligned with your brand voice and objectives
+                    </p>
+                </div>
+
+                <div class="service-card animate-up">
+                    <div
+                        class="w-16 h-16 rounded-full bg-[#FFE8D6] bg-opacity-20 flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-user-friends text-[#FF971D] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Creator Matchmaking</h3>
+                    <p class="text-gray-600">
+                        Connect with the perfect creators for your brand
+                    </p>
+                </div>
+
+                <div class="service-card animate-up">
+                    <div
+                        class="w-16 h-16 rounded-full bg-[#FFE8D6] bg-opacity-20 flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-video text-[#FF971D] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">UGC Video Production</h3>
+                    <p class="text-gray-600">
+                        High-quality content that resonates with your audience
+                    </p>
+                </div>
+
+                <div class="service-card animate-up">
+                    <div
+                        class="w-16 h-16 rounded-full bg-[#FFE8D6] bg-opacity-20 flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-chart-bar text-[#FF971D] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Performance Tracking</h3>
+                    <p class="text-gray-600">
+                        Detailed analytics and insights for optimization
+                    </p>
+                </div>
+
+                <div class="service-card animate-up">
+                    <div
+                        class="w-16 h-16 rounded-full bg-[#FFE8D6] bg-opacity-20 flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-tasks text-[#FF971D] text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">End-to-End Execution</h3>
+                    <p class="text-gray-600">
+                        Complete campaign management from start to finish
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creators Section -->
+    <section id="creators" class="py-20 bg-[#F9F6F7]">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">From Nano to Mega — <span class="gradient-text">Across India</span></h2>
+            <div class="divider"></div>
+
+            <div class="max-w-4xl mx-auto text-center">
+                <p class="text-xl text-gray-600 leading-relaxed mb-8">
+                    We work with a curated pool of creators across fashion, beauty, wellness, tech, lifestyle & more.
+                    From niche voices to viral talent — we build campaigns that connect.
+                </p>
+                <a href="#contact" class="btn-primary">Join as a Creator</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Logos Section -->
+    <section class="py-20 bg-[#FFFFFF]">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">Trusted by <span class="gradient-text">Leading Brands</span></h2>
+            <div class="divider"></div>
+
+            <div class="flex flex-wrap justify-center items-center gap-12 mt-12">
+                <img src="images/mamaearth.png" alt="Mamaearth"
+                    class="h-12 opacity-60 hover:opacity-100 transition-opacity animate-up">
+                <img src="images/dermaco.png" alt="Dermaco"
+                    class="h-12 opacity-60 hover:opacity-100 transition-opacity animate-up">
+                <img src="images/khare.png" alt="Khare App"
+                    class="h-12 opacity-60 hover:opacity-100 transition-opacity animate-up">
+                <img src="images/dostt.png" alt="Dostt App"
+                    class="h-12 opacity-60 hover:opacity-100 transition-opacity animate-up">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-[#F9F6F7]">
+        <div class="container mx-auto px-6">
+            <h2 class="section-title">Let's Create Something <span class="gradient-text">Worth Sharing</span></h2>
+            <div class="divider"></div>
+
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="flex flex-col md:flex-row justify-center gap-8 mt-12">
+                    <div class="contact-info animate-up">
+                        <i class="fas fa-envelope text-3xl text-[#FF971D] mb-4"></i>
+                        <p class="text-xl">collabmente@gmail.com</p>
+                    </div>
+                    <div class="contact-info animate-up">
+                        <i class="fas fa-phone text-3xl text-[#FF971D] mb-4"></i>
+                        <p class="text-xl">+91 87083 84149</p>
+                    </div>
+                    <div class="contact-info animate-up">
+                        <i class="fab fa-instagram text-3xl text-[#FF971D] mb-4"></i>
+                        <p class="text-xl">@collabmente</p>
+                    </div>
+                </div>
+
+                <div class="mt-12">
+                    <a href="#contact" class="btn-primary">Plan Your Campaign</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-[#FFE8D6] bg-[#F9F6F7]">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-8 md:mb-0">
+                    <a href="#" class="text-2xl font-bold text-[#333333]">Collab<span
+                            class="text-[#FF971D]">Mente</span></a>
+                    <p class="text-sm text-gray-600 mt-2">© 2025 CollabMente. All rights reserved.</p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-8">
+                    <a href="#home" class="footer-link">Home</a>
+                    <a href="#services" class="footer-link">Services</a>
+                    <a href="#creators" class="footer-link">Our Creators</a>
+                    <a href="#blog" class="footer-link">Blog</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-sm text-gray-600">
+                Influencer Marketing Agency | UGC Campaign Agency | Social Media Company India
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
