@@ -391,7 +391,7 @@ nav {
 }
 
 .brand-card {
-    background-color: var(--beige2);
+    background-color: white;
     padding: 1.5rem;
     /* border-radius: 1rem; */
     display: flex;
